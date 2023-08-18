@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class ProfileModel extends CI_Model {
 
-	
+
 	function edit(){
 		$id = $this->input->post('id');
 		$user = $this->input->post('name');
